@@ -2,7 +2,7 @@ module.exports = {
     name: 'bakaisdabest',
     description: "Sets up a reaction role message!",
     async execute(message, args, Discord, client) {
-        const channel = process.env.CHANNEL_ID;
+        const channel = "692340573729718305";
         const rollCall = message.guild.roles.cache.find(role => role.name === "Roll Calls");
         const eventCall = message.guild.roles.cache.find(role => role.name === "Event Calls");
  
