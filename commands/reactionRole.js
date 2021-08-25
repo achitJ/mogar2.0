@@ -22,6 +22,7 @@ module.exports = {
             '\n'+
             '**NOTE:** If you already have one of the roles and have not reacted to the bot, to remove it, you will have to **REACT AND THEN UNREACT TO THE SAID ROLE**'+
             '\n'+
+            '\n'+
             'ALL HAIL LEGION!' +
             '\n' +
             '\n' +
