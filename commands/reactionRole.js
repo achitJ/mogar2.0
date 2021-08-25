@@ -6,13 +6,13 @@ module.exports = {
         const rollCall = message.guild.roles.cache.find(role => role.name === "Roll Calls");
         const eventCall = message.guild.roles.cache.find(role => role.name === "Event Calls");
  
-        const rollCallEmoji = '🟨';
-        const eventCallEmoji = '🟧';
+        const rollCallEmoji = '🌕';
+        const eventCallEmoji = '🌑';
  
         let embed = new Discord.MessageEmbed()
             .setColor('#417663')
             .setTitle('We have created the Calls : **ROLL CALLS** and **EVENT CALLS**.')
-            .setDescription( 'What are Roll Calls? When a chapter of Supreme Magus is released, you can be notified of the release, if you have the role Roll Calls.\n'+
+            .setDescription( 'What are Roll Calls? When a chapter of Supreme Magus is released, you can be notified of the release, if you have the role Roll Calls. You will also be notified for the Mini-Mass release if you have the Roll Calls\n'+
             '\n'+
             'The second call is the Event Calls.\n'+
             'If you want to be notified in advance about some events we organize here which the Author, Legion20, will attend.\n'+
